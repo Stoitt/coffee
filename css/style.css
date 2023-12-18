@@ -45,6 +45,9 @@ main {
 .marrom {
     color: #a45a49;
 }
+.amarelo {
+    color: #e7a80e;
+}
 h1 {
     font-family: 'Montserrat', sans-serif; 
     font-size: 3.5rem;
@@ -78,4 +81,85 @@ hr {
 button {
     background-color: transparent;
     border: none;
+}
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+.receitas-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.receitas-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff2e7;
+}
+.receitas-subtitulo {
+    color: #c7bab3;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.receitas-card-conteiner {
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.receitas-card {
+    background-color: #241a1c;
+    padding: 2rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+}
+.receitas-card-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.receitas-card-cabecalho-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.receita-titulo {
+    color: #fff2e7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.receita-avaliacao {
+    color: #756a67;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.receita-descricao {
+    color: #c7bab3;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.receita-autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+.receita-autor-nome {
+    color: #c7bab3;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
 }
