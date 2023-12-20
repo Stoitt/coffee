@@ -82,12 +82,15 @@ button {
     background-color: transparent;
     border: none;
 }
-.receitas {
-    display: flex;
-    flex-direction: column;
-    max-width: 1120px;
-    padding: 3rem 2rem;
+article {
     margin: auto;
+}
+.receitas {
+   height: auto;
+   width: 80%;
+   margin: auto;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
 }
 .receitas-cabecalho {
     display: flex;
@@ -107,22 +110,21 @@ button {
     font-weight: 400;
 }
 .receitas-card-conteiner {
-    padding: 0 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
+    height: auto;
 }
 .receitas-card {
     background-color: #241a1c;
-    padding: 2rem;
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    flex-basis: 29rem;
-    margin-top: 2rem;
-}
+    gap: 2rem; 
+    padding: .5rem;
+}   
 .receitas-card-cabecalho {
     display: flex;
     flex-direction: row;
@@ -135,6 +137,8 @@ button {
     gap: .25rem;
 }
 .receita-titulo {
+    display: flex;
+    flex-direction: column;
     color: #fff2e7;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
